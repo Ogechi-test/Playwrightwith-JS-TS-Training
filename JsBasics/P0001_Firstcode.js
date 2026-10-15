@@ -327,14 +327,7 @@ function openDoor(){
    
 // }
 
-
-
-let file = function(){
-    console.log("My name is: "+firstName+"\nMy country is: "+lastName);
-    
-}
-file();
-
+// Function declaration
 function lockDoor() {
     console.log("Age is: " +age);
     
@@ -342,6 +335,15 @@ function lockDoor() {
 
 lockDoor();
 
+// Anonymous
+
+let file = function(){
+    console.log("My name is: "+firstName+"\nMy country is: "+lastName);
+    
+}
+file();
+
+// Arrow function
 const vision = ()=>{
     console.log("Testing with Playwright");
     
