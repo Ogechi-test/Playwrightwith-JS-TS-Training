@@ -351,7 +351,16 @@ const vision = ()=>{
 
 vision();
 
+for(let i=1;i<=5;i++){
 
+    let i="";
+    for(let c=1; c<=5; c++){
+        i = i <=c;
+    }
+        
+        console.log(i);
+        
+}
 
 
 
